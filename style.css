@@ -1,0 +1,14 @@
+body{
+    background-color: #2a2626,;
+    
+}
+h1{
+    text-align: center;
+}
+header {
+    height: 500px;
+    border: 5px solid red;
+    background: url('https://scenenoise.com/Content/Articles/Big_image/d0ded4ff-4f33-4fb2-a95f-39cdcc7a6bed.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
