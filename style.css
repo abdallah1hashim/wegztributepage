@@ -1,14 +1,104 @@
+
+:root {
+    --mainColor: #A17DE6;
+    --secondColor: #4A4453;
+    --thirdColor: #AFA8BA;
+}
+
+
+
+
+
 body{
-    background-color: #2a2626,;
+    color: #FCF8FF;
+    margin: 0%;
+}
+
+
+
+header {
+    height: 100vh;
+    background-color: var(--mainColor);
+    display: flex;
+    flex-direction: row;
+}
+
+header img {
+    overflow: hidden;
+}
+/* .headBox {
+    aspect-ratio: 1/1;
+} */
+
+#singerName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header span {
+    font-size: 8em;
+    font-weight: bolder;
+
+}
+
+/* .headBox 
+    overflow: hidden;
+    scrollbar-
+}{ */
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+section {
+    background-color: var(--secondColor);
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* flex-direction: row; */
+    padding: 6em 3em;
+    align-items: center;
+
+
+}
+.secBox{
+    background-color: #B7A2D7;
+    width: calc(80%/3);
+    height: 50vh;
+    color: #2D6677;
+    font-size: large;
+    padding: 1em;
+    border-radius: .3em;
+    box-shadow: 15px 14px 1px 4px #2e2e2c;
+    box-sizing: border-box;
+}
+section ol {
+    padding: 1em;
+    margin: 1em;
+}
+
+
+#songslist {
+    height: fit-content;
     
 }
-h1{
-    text-align: center;
-}
-header {
-    height: 500px;
-    border: 5px solid red;
-    background: url('https://scenenoise.com/Content/Articles/Big_image/d0ded4ff-4f33-4fb2-a95f-39cdcc7a6bed.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
+
+/* .secBox2 {
+    height: 15px;
+} */
+
+
+
+footer{
+    background-color: #4A4453;
+
 }
